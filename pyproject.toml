@@ -1,6 +1,6 @@
 [project]
 name = "oh-my-bilibili"
-version = "0.1.0"
+version = "0.1.1"
 description = "一个简易的Bilibili视频下载器，基于逆向接口"
 readme = "README.md"
 authors = [
