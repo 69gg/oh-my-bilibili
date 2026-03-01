@@ -1,0 +1,16 @@
+[project]
+name = "oh-my-bilibili"
+version = "0.1.0"
+description = "一个简易的Bilibili视频下载器，基于逆向接口"
+readme = "README.md"
+authors = [
+    { name = "Null", email = "pylindex@qq.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.27.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.10.7,<0.11.0"]
+build-backend = "uv_build"
