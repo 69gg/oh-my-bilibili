@@ -15,8 +15,22 @@
 ## 安装
 
 ```bash
-uv pip install .
+uv sync
 ```
+
+## 构建指南
+
+```bash
+# 先同步依赖
+uv sync
+
+# 构建 sdist + wheel
+uv build
+```
+
+构建产物位于 `dist/` 目录：
+- `*.tar.gz`（source distribution）
+- `*.whl`（wheel）
 
 ## 快速开始
 
